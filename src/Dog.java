@@ -24,4 +24,14 @@ public class Dog extends Animal {
                 ", tailShape='" + tailShape + '\'' +
                 "} " + super.toString();
     }
+
+    @Override
+    public void move(String spped) {
+        super.move(spped);
+        System.out.println("Dogs walk, run and wag their tail");
+    }
+
+    public void makeNoise() {
+
+    }
 }

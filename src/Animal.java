@@ -25,7 +25,7 @@ public class Animal {
         System.out.println(type + " moves " + spped);
     }
 
-    public void make_noise() {
+    public void makeNoise() {
         System.out.println(type + " makes noise");
     }
 }

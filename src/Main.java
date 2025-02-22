@@ -17,7 +17,7 @@ public class Main {
     }
 
     public static void doAnimalStuff(Animal animal, String speed) {
-        animal.make_noise();
+        animal.makeNoise();
         animal.move(speed);
         System.out.println(animal);
         System.out.println("_ _ _ _");
