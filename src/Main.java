@@ -1,3 +1,5 @@
+import javax.print.Doc;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -14,6 +16,10 @@ public class Main {
 
         Dog retriever = new Dog("Retruver", 800, "Floppy", "Swimmer");
         doAnimalStuff(retriever, "slow");
+
+        Dog wolf = new Dog("Wolf", 40);
+        doAnimalStuff(wolf, "slow");
+
     }
 
     public static void doAnimalStuff(Animal animal, String speed) {
